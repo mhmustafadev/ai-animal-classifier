@@ -98,7 +98,7 @@ if uploaded_file:
         use_container_width=True
     )
 
-    if st.button("🔍 Identify Animal", use_container_width=True):
+    if st.button("🔍 Identify", use_container_width=True):
 
         with st.spinner("AI is analyzing your image..."):
 
